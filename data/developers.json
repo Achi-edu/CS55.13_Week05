@@ -1,0 +1,53 @@
+[
+  {
+    "id": "jonathan-blow",
+    "name": "Jonathan Blow",
+    "datesAlive": "1971 - Present",
+    "knownFor": ["Braid", "The Witness"],
+    "companies": ["Number None, Inc."]
+  },
+  {
+    "id": "don-bluth",
+    "name": "Don Bluth",
+    "datesAlive": "1937 - Present",
+    "knownFor": ["Dragon's Lair"],
+    "companies": ["Cinematronics", "Bluth Group"]
+  },
+  {
+    "id": "chris-roberts",
+    "name": "Chris Roberts",
+    "datesAlive": "1968 - Present",
+    "knownFor": ["Wing Commander", "Star Citizen"],
+    "companies": ["Cloud Imperium Games", "Origin Systems"]
+  },
+  {
+    "id": "rand-miller",
+    "name": "Rand Miller",
+    "datesAlive": "1959 - Present",
+    "knownFor": ["Myst", "Riven"],
+    "companies": ["Cyan Worlds"]
+  },
+  {
+    "id": "richard-garriott",
+    "name": "Richard Garriott",
+    "datesAlive": "1961 - Present",
+    "knownFor": ["Ultima"],
+    "companies": ["Origin Systems", "Portalarium"]
+  },
+  {
+    "id": "roberta-williams",
+    "name": "Roberta Williams",
+    "datesAlive": "1953 - Present",
+    "knownFor": ["King's Quest"],
+    "companies": ["Sierra On-Line"]
+  },
+  {
+    "id": "jon-van-caneghem",
+    "name": "Jon Van Caneghem",
+    "datesAlive": "1962 - Present",
+    "knownFor": ["Might and Magic: Book One - The Secret of the Inner Sanctum", "Heroes of Might and Magic: A Strategic Quest"],
+    "companies": ["New World Computing", "3DO"]
+  }
+
+]
+

@@ -1,0 +1,70 @@
+[
+  {
+    "title": "Braid",
+    "year": 2008,
+    "platforms": ["Xbox 360", "PC", "PS3"],
+    "mediaType": "Digital Download"
+  },
+  {
+    "title": "The Witness",
+    "year": 2016,
+    "platforms": ["PC", "PS4", "Xbox One"],
+    "mediaType": "Digital Download"
+  },
+  {
+    "title": "Dragon's Lair",
+    "year": 1983,
+    "platforms": ["Arcade", "PC", "Consoles"],
+    "mediaType": "LaserDisc"
+  },
+  {
+    "title": "Wing Commander",
+    "year": 1990,
+    "platforms": ["PC", "Amiga", "SNES"],
+    "mediaType": "3.5\" Floppy, CD-ROM"
+  },
+  {
+    "title": "Myst",
+    "year": 1993,
+    "platforms": ["Mac", "PC", "PlayStation"],
+    "mediaType": "CD-ROM"
+  },
+  {
+    "title": "Riven",
+    "year": 1997,
+    "platforms": ["Mac", "PC"],
+    "mediaType": "CD-ROM"
+  },
+  {
+    "title": "Ultima",
+    "year": 1981,
+    "platforms": ["Apple II", "PC"],
+    "mediaType": "5.25\" Floppy"
+  },
+  {
+    "title": "King's Quest",
+    "year": 1984,
+    "platforms": ["PC", "DOS", "Amiga"],
+    "mediaType": "Floppy Disk"
+  },
+  {
+    "title": "Star Citizen",
+    "year": "In Development",
+    "platforms": ["PC"],
+    "mediaType": "Online"
+  },
+  {
+    "title": "Might and Magic: Book One - The Secret of the Inner Sanctum",
+    "year": 1986,
+    "platforms": ["Apple II", "DOS", "Commodore 64", "MSX"],
+    "mediaType": "Floppy Disk"
+  },
+  {
+    "title": "Heroes of Might and Magic: A Strategic Quest",
+    "year": 1995,
+    "platforms": ["MS-DOS", "Windows"],
+    "mediaType": "CD-ROM"
+  }
+
+]
+
