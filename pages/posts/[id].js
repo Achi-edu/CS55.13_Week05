@@ -1,5 +1,5 @@
 import Layout from '../../components/layout'; // page layout wrapper
-import { getAllPostIds, getPostData } from '../../lib/posts'; // for post path ids and full post content
+import { getAllPostIds, getPostData } from '../../lib/posts-json'; // for post path ids and full post content
 import Head from 'next/head'; // component for setting document head tags
 import Date from '../../components/date'; // formats the date string
 import utilStyles from '../../styles/utils.module.scss'; // CSS module with scoped utility class names
@@ -28,11 +28,12 @@ export default function Post({ postData }) { // Dynamic post page
                 <title>{postData.title}</title>
             </Head>
             <article>
-                <h2 className={utilStyles.headingXl}>{postData.title}</h2>
+                <h2 className={`${utilStyles.headingXl} ${utilStyles[postData.color]}`}>{postData.title}</h2>
                 <div className={utilStyles.lightText}>
                     <Date dateString={postData.date} />
                 </div>
                 <div dangerouslySetInnerHTML={{ __html: postData.contentHtml }} />
+
             </article>
         </Layout>
     ); // End return of Post

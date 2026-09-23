@@ -4,7 +4,7 @@ import utilStyles from '../styles/utils.module.scss'; // CSS module with scoped 
 import Link from 'next/link'; // Next.js component for client-side navigation between routes
 import Date from '../components/date'; // Component that formats an ISO date string for display
 
-import { getSortedPostsData } from '../lib/posts'; // Helper that reads markdown posts and returns sorted metadata
+import { getSortedPostsData } from '../lib/posts-json'; // Helper that reads markdown posts and returns sorted metadata
 
 export async function getStaticProps() { // data hook that runs at build time
     const allPostsData = getSortedPostsData(); // Load all post ids, titles, and dates from /posts
@@ -31,9 +31,9 @@ export default function Home({ allPostsData }) { // Home page component
             <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, date, title }) => ( // Map each post's id, date, and title into a list item
+                    {allPostsData.map(({ id, date, title, color }) => ( // Map each post's id, date, title, and color into a list item
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/posts/${id}`}>{title}</Link>
+                            <Link className={utilStyles[color]} href={`/posts/${id}`}>{title}</Link>
                             <br />
                             <small className={utilStyles.lightText}>
                                 <Date dateString={date} />

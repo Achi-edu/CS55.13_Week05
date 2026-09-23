@@ -1,0 +1,30 @@
+[
+  {
+    "title": "One for the Money",
+    "date": "2000-01-01",
+    "contentHtml": "I just took a walk down to the local shoe store and fell in love.",
+    "id": "1",
+    "color": "myRed"
+  },
+  {
+  "title": "Two for the Show",
+  "date": "2000-01-02",
+  "contentHtml": "I had never seen a pair of shoes quite so beautiful and I had to have them.",
+  "id": "2",
+  "color": "myYellow"
+  },
+  {
+  "title": "Three to Get Ready",
+  "date": "2000-01-03",
+  "contentHtml": "I ran home, took what savings I had, ran back to the store, and bought those shoes.",
+  "id": "3",
+  "color": "myOrange"
+  },
+  {
+  "title": "Go Cat Go!",
+  "date": "2000-01-04",
+  "contentHtml": "I want to keep them nice, so don't you step on my blue suede shoes!",
+  "id": "4",
+  "color": "myGreen"
+  }
+]
