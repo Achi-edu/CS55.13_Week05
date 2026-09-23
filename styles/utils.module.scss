@@ -1,0 +1,61 @@
+.heading2Xl {
+    font-family: var(--font-road-rage), sans-serif;
+    font-size: 3rem;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    margin: 1rem 0;
+    color: #092f59;
+}
+
+.headingXl {
+    font-family: var(--font-road-rage), sans-serif;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+
+.headingLg {
+    font-family: var(--font-carrios_gothic), sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    margin: 1rem 0;
+}
+
+.headingMd {
+    font-family: var(--font-carrios_gothic), sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.borderCircle {
+  border: 2px solid #092f58;
+  border-radius: 50%;
+}
+
+.colorInherit {
+    color: inherit;
+}
+
+.padding1px {
+    padding-top: 1px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.listItem {
+    margin: 0 0 1.25rem;
+
+    a {
+      font-weight: 600;
+    }
+}
+
+.lightText {
+    color: #666;
+}
